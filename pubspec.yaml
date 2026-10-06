@@ -1,0 +1,56 @@
+name: TaskIQ
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.6.12
+  flutter_local_notifications: ^17.2.3
+  intl: ^0.20.2
+  timezone: ^0.9.4
+  speech_to_text: ^7.0.0
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+  provider: ^6.1.5+1
+  table_calendar: ^3.2.0
+  fl_chart: ^1.2.0
+  image_picker: ^1.2.1
+  shared_preferences: ^2.5.5
+  firebase_storage: ^12.4.10
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
+
+# ---------------- Splash Screen Configuration ----------------
+flutter_native_splash:
+  color: "#673AB7"        # Deep Purple background
+  image: assets/logo.jpg   # Center logo
+  android: true
+  ios: true
+  web: false
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  fullscreen: true
+
+# ---------------- Launcher Icons Configuration ----------------
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg"
+  remove_alpha_ios: true

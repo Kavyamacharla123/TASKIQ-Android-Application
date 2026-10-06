@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275986946866",
+    "project_id": "taskiq-13af9",
+    "storage_bucket": "taskiq-13af9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275986946866:android:8ac25ccbedb068dda7552b",
+        "android_client_info": {
+          "package_name":  "com.example.taskiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcPkXaZtUMSA-HiadMPa0Roi9mWLO9Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275986946866:android:c997e8644e49243ca7552b",
+        "android_client_info": {
+          "package_name": "com.example.taskiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcPkXaZtUMSA-HiadMPa0Roi9mWLO9Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
